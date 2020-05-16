@@ -5,9 +5,10 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-      "packages/*"
+    "packages/*"
   ],
   "dependencies": {
+    "@changesets/cli": "^2.7.1",
     "typescript": "^3.9.2"
   }
 }
