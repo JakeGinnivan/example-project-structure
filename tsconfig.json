@@ -1,0 +1,17 @@
+{
+    "references": [
+        {
+            "path": "./packages/package-1"
+        },
+        {
+            "path": "./packages/package-1/tsconfig.esm.json"
+        },
+        {
+            "path": "./packages/package-2"
+        },
+        {
+            "path": "./packages/package-2/tsconfig.esm.json"
+        }
+    ],
+    "files": []
+}

@@ -1,0 +1,17 @@
+{
+    "extends": "../../tsconfig.settings.json",
+    "compilerOptions": {
+        "outDir": "./dist/cjs",
+        "rootDir": "./src",
+        "baseUrl": ".",
+        "paths": {
+            "package-1": ["../package-1"]
+        }
+    },
+    "references": [
+        {
+            "path": "../package-1"
+        }
+    ],
+    "exclude": ["dist"]
+}

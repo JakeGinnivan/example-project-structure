@@ -1,0 +1,13 @@
+{
+  "name": "example-project-structure",
+  "repository": "git@github.com:JakeGinnivan/example-project-structure.git",
+  "author": "Jake Ginnivan <jake@ginnivan.net>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+      "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^3.9.2"
+  }
+}
