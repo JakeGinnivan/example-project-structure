@@ -9,6 +9,9 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.7.1",
+    "@types/jest": "^25.2.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
     "typescript": "^3.9.2"
   }
 }
